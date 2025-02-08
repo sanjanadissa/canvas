@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+
+<body>
+  <div class="butt">
+  <button onclick="changeColor('black')">black</button>
+  <button onclick="changeColor('60')">yellow</button>
+  <button onclick="changeColor('0')">red</button> 
+  <button onclick="changeColor('240')">blue</button> 
+  <button onclick="changeColor('330')">pink</button> 
+  <button onclick="changeColor('white')">white</button> 
+  <button onclick="changeColor('30')">orange</button>
+  <button onclick="changeColor('120')">green</button>
+  <button onclick="changeColor('270')">purple</button>
+  <button  onclick="changeColor('rainbow')  ">rainbow</button>
+</div> 
+  <canvas id="draw" width="800" height="800">
+  </canvas>
+
+  <script src="script.js"></script>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+    .butt{
+      display: flex;
+      gap: 10px;
+      justify-content: space-evenly;
+      padding-top: 10px;
+    }
+
+  </style>
+
+</body>
+
+</html>
